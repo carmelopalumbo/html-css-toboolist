@@ -8,6 +8,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: rgb(241, 237, 237);
 }
 
 .container{
@@ -19,17 +20,18 @@ body{
 /* header */
 
 .title #logo{
-  padding-bottom: 50px;
-  padding-right: 10px;
   width: 100px;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .title h1{
   display: inline-block;
   font-size: 60px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .title{
-  padding: 30px;
+  background-color: white;
+  padding: 10px 20px;
 }
