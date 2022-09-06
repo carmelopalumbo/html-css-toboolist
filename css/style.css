@@ -15,7 +15,6 @@ body{
 
 .container{
 
-  max-width: 1200px;
   width: 50%;
   margin: 0 auto;
 
@@ -76,10 +75,20 @@ body{
 .container .bg1{
 
   background-color: white;
-  margin: 50px;
+  margin-top: 25px;
+  margin-bottom: 2px;
   padding: 20px;
   border-radius: 8px 8px 0 0;
 
+}
+
+/* main */
+
+.container .bg2{
+
+  background-color: white;
+  padding: 1px 0;
+  border-radius: 0 0 8px 8px;
 }
 
 .summary::before{
@@ -129,6 +138,8 @@ body{
 
 }
 
+/* colors */
+
 .color1{
 
   background-color: rgb(65, 142, 214);
@@ -151,4 +162,16 @@ body{
 
   background-color: goldenrod ;
 
+}
+
+.color5{
+
+  background-color: rgb(207, 11, 224);
+
+}
+
+.color6{
+
+  background-color: rgb(134, 204, 30);
+  
 }
