@@ -84,6 +84,10 @@ body{
 
 /* main */
 
+main ul{
+  list-style-type: none;
+}
+
 .container .bg2{
 
   background-color: white;
