@@ -81,3 +81,35 @@ body{
   border-radius: 8px 8px 0 0;
 
 }
+
+.summary::before{
+  content: '\25BE';
+}
+
+.container section{
+
+  margin: 20px 90px;
+
+}
+
+.note{
+
+  padding-top: 15px;
+  font-size: 20px;
+
+}
+
+.note::before{
+  content: '\2713';
+  color: lightgreen;
+  border: 1px solid lightgreen;
+  border-radius: 50%;
+}
+
+.highlighted{
+  font-size: 14px;
+  color: white;
+  background-color: rgb(65, 142, 214);
+  border-radius: 10px;
+  padding: 8px;
+}
